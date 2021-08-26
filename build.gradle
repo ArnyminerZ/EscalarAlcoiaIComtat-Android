@@ -15,7 +15,7 @@ buildscript {
     dependencies {
         // Build tools
         classpath 'com.android.tools.build:gradle:7.1.0-alpha10'
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30'
 
         // Google Services
         classpath 'com.google.gms:google-services:4.3.10'

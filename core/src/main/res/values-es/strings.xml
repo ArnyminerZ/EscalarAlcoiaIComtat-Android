@@ -61,34 +61,13 @@
     <string name="path_ending_pitch_inclined">Inclinado</string>
     <string name="path_ending_pitch_rappeleable">Rapelable</string>
     <string name="path_ending_pitch_clean">, sin equipamiento</string>
-    <plurals name="safe_quickdraws">
-        <item quantity="one">%1$s Express</item>
-        <item quantity="other">%1$s Express</item>
-    </plurals>
-    <plurals name="safe_quickdraws_lower">
-        <item quantity="one">%1$s express</item>
-        <item quantity="other">%1$s express</item>
-    </plurals>
-    <plurals name="safe_parabolt">
-        <item quantity="one">%1$s Parabolt</item>
-        <item quantity="other">%1$s Parabolts</item>
-    </plurals>
-    <plurals name="safe_spit">
-        <item quantity="one">%1$s Espit</item>
-        <item quantity="other">%1$s Espits</item>
-    </plurals>
-    <plurals name="safe_tensor">
-        <item quantity="one">%1$s Tensor</item>
-        <item quantity="other">%1$s Tensores</item>
-    </plurals>
-    <plurals name="safe_piton">
-        <item quantity="one">%1$s Clavo</item>
-        <item quantity="other">%1$s Clavos</item>
-    </plurals>
-    <plurals name="safe_buril">
-        <item quantity="one">%1$s Buril</item>
-        <item quantity="other">%1$s Burils</item>
-    </plurals>
+    <string name="safe_quickdraws">{0,choice,0#Quickdraws|1#{0} Quickdraw|1&lt;{0} Quickdraws}</string>
+    <string name="safe_quickdraws_lower">{0,choice,0#quickdraws|1#{0} quickdraw|1&lt;{0} quickdraws}</string>
+    <string name="safe_parabolt">{0,choice,0#Parabolts|1#{0} Parabolt|1&lt;{0} Parabolts}</string>
+    <string name="safe_spit">{0,choice,0#Spits|1#{0} Spit|1&lt;{0} Spits}</string>
+    <string name="safe_tensor">{0,choice,0#Tensors|1#{0} Tensor|1&lt;{0} Tensors}</string>
+    <string name="safe_piton">{0,choice,0#Pitons|1#{0} Piton|1&lt;{0} Pitons}</string>
+    <string name="safe_buril">{0,choice,0#Burils|1#{0} Buril|1&lt;{0} Burils}</string>
     <plurals name="safe_required_nut">
         <item quantity="one">Empotrador</item>
         <item quantity="other">Empotradores</item>
